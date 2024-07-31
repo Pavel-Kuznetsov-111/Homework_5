@@ -9,14 +9,14 @@ public class Main {
         }
 
         int clientOS2 = 1;
-        int clientDeviceYear = 2014;
+        int clientDeviceYear = 2015;
         if (clientOS2 == 0 && clientDeviceYear < 2015) {
             System.out.println("Установите облегченную версию приложения для iOS по ссылке");
-        } else if (clientOS2 == 0 && clientDeviceYear > 2015) {
+        } else if (clientOS2 == 0 && clientDeviceYear > 2015)
             System.out.println("Установите версию приложения для iOS по ссылке");
-        } else if (clientOS2 == 1 && clientDeviceYear < 2015) {
+         else if (clientOS2 == 1 && clientDeviceYear < 2015)
             System.out.println("Установите облегченную версию приложения для Android по ссылке");
-        } else {
+         else {
             System.out.println("Установите версию приложения для Android по ссылке");
         }
 
@@ -41,7 +41,7 @@ public class Main {
             System.out.println("Доставки нет!");
         }
 
-        int monthNumber = 15;
+        int monthNumber = 17;
         switch (monthNumber) {
             case 1:
             case 2:
@@ -63,8 +63,7 @@ public class Main {
             case 11:
                 System.out.println("Это осенний месяц");
                 break;
-            default:
-                System.out.println("Нет-нет, в календарном году всего лишь 12 месяцев");
+
         }
 
 
